@@ -33,10 +33,10 @@ li button:focus {
     color: white !important;
 }
 
-#home-tab:focus {
+#home-tab:focus, #home-tab:active, #home-tab:hover {
     border-bottom-color: #0C6FFD !important;
 }
 
-#profile-tab:focus {
+#profile-tab:focus, #profile-tab:active, #profile-tab:hover {
     border-bottom-color: #FEC106
 }
