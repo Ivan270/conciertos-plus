@@ -1,0 +1,42 @@
+body {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperboat.com%2Fwp-content%2Fuploads%2F2019%2F12%2Fconcert-07.jpg&f=1&nofb=1&ipt=42b91792a06d62526ab16b83852b791155b60bf12caa5a2424ef8f23653f7fb9&ipo=images');
+    background-size: cover;
+
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px);
+}
+
+input[type='text'], input[type='email'], input[type='password'] {
+    background-color: rgba(114, 114, 114, 0.3);
+    backdrop-filter: blur(3px);
+    height: 50px;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.521) !important;
+}
+
+form label {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+li button {
+    color: black !important;
+    font-weight: 600 !important;
+    letter-spacing: 4px;
+}
+
+li button:focus {
+    color: white !important;
+}
+
+#home-tab:focus {
+    border-bottom-color: #0C6FFD !important;
+}
+
+#profile-tab:focus {
+    border-bottom-color: #FEC106
+}
